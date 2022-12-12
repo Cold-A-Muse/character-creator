@@ -30,6 +30,8 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
+      <div style={{ 'position': 'fixed', width: '100%', bottom: '0', height: '40%', 'background': 'hsl(195deg, 20%, 86%)' }}>
+      </div>
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
